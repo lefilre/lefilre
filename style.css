@@ -1,0 +1,89 @@
+.gradient {
+    background: linear-gradient(135deg, #f6ecdb, #e7e1f7);
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.navbar {
+    background-color: transparent !important;
+    border-bottom: 1px solid #fff;
+    margin-bottom: 40px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 500;
+}
+
+.navbar ul {
+    width: 100%;
+    justify-content: center;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.product-bg {
+    width: 100%;
+    height: 300px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-color: #fff;
+}
+
+.navbar-brand {
+    font-family: 'Playfair Display', serif;
+}
+
+
+.content {
+    margin-top: 90px;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 48px;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+}
+
+.social-media {
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.fa-tiktok {
+    color: black;
+}
+
+.fa-instagram {
+    color: black;
+}
+
+::selection {
+    background-color: rgb(218, 174, 181);
+    color: rgb(255, 241, 241);
+}
+
+.information {
+    font-family: 'Playfair Display', serif;
+    font-size: 25px;
+}
+
+.pink-button {
+    margin-top: 20px;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: rgb(218, 174, 181);
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Playfair Display', serif;
+}
